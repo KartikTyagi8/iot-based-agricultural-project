@@ -1,0 +1,388 @@
+.data-representation{
+    margin: 6px 15px;
+    height: 20px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.temperature-circle {
+    justify-content: space-between;
+    width: 130px;
+}
+                    
+.celsius-circle, .fahrenheit-circle{
+    height: 40px;
+    width:60px;
+    border:1px solid grey;
+                        border-radius: 50%;
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        margin-right: 20px;
+                    }
+                     ̰
+                    .temperature-letter {
+                        font-size: 28px;
+                        font-weight: bold;
+                        color: black;
+                    }
+                    
+                    .degree-symbol {
+                        position: relative;
+                        transform: translate(-12px,-7px);
+                        bottom: 0;
+                        right: -10px;
+                        font-size: 18px;
+                    }
+                
+
+.speedometer-container{
+width: 300px;
+height: 300px;
+/* border: 1px solid black; */
+border-radius: 50%;
+margin: 10px auto;
+position: relative;
+}
+
+.center-point{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: black;
+z-index: 10;
+position: absolute;
+/* transform: translate(125px,120px); */
+top: 137px;
+left: 137px;
+}
+
+.speedometer-scale{
+width:8px;
+height:280px;
+background-color: #D9D9D9;
+position: absolute;
+left: 143px;
+top: 7px;
+transform: rotate(-90deg);
+}
+
+.temperature-speedometer-scale-1{
+transform: rotate(-90deg);
+}
+.temperature-speedometer-scale-2{
+transform: rotate(-80deg);
+}
+.temperature-speedometer-scale-3{
+transform: rotate(-70deg);
+}
+.temperature-speedometer-scale-4{
+transform: rotate(-60deg);
+}
+.temperature-speedometer-scale-5{
+transform: rotate(-50deg);
+}
+.temperature-speedometer-scale-6{
+transform: rotate(-40deg);
+}
+.temperature-speedometer-scale-7{
+transform: rotate(-30deg);
+}
+.temperature-speedometer-scale-8{
+transform: rotate(-20deg);
+}
+.temperature-speedometer-scale-9{
+transform: rotate(-10deg);
+}
+.temperature-speedometer-scale-10{
+transform: rotate(0deg);
+}
+.temperature-speedometer-scale-11{
+transform: rotate(10deg);
+}
+.temperature-speedometer-scale-12{
+transform: rotate(20deg);
+}
+.temperature-speedometer-scale-13{
+transform: rotate(30deg);
+}
+.temperature-speedometer-scale-14{
+transform: rotate(40deg);
+}
+.temperature-speedometer-scale-15{
+transform: rotate(50deg);
+}
+.temperature-speedometer-scale-16{
+transform: rotate(60deg);
+}
+.temperature-speedometer-scale-17{
+transform: rotate(70deg);
+}
+
+.temperature-speedometer-scale-18{
+transform: rotate(80deg);
+}
+
+.temperature-speedometer-scale-19{
+transform: rotate(90deg);
+height: 244px;
+top: 25px;
+left:161px;
+}
+
+.humidity-speedometer-scale-1{
+transform: rotate(-90deg);
+}
+.humidity-speedometer-scale-2{
+transform: rotate(-80deg);
+}
+.humidity-speedometer-scale-3{
+transform: rotate(-70deg);
+}
+.humidity-speedometer-scale-4{
+transform: rotate(-60deg);
+}
+.humidity-speedometer-scale-5{
+transform: rotate(-50deg);
+}
+.humidity-speedometer-scale-6{
+transform: rotate(-40deg);
+}
+.humidity-speedometer-scale-7{
+transform: rotate(-30deg);
+}
+.humidity-speedometer-scale-8{
+transform: rotate(-20deg);
+}
+.humidity-speedometer-scale-9{
+transform: rotate(-10deg);
+}
+.humidity-speedometer-scale-10{
+transform: rotate(0deg);
+}
+.humidity-speedometer-scale-11{
+transform: rotate(10deg);
+}
+.humidity-speedometer-scale-12{
+transform: rotate(20deg);
+}
+.humidity-speedometer-scale-13{
+transform: rotate(30deg);
+}
+.humidity-speedometer-scale-14{
+transform: rotate(40deg);
+}
+.humidity-speedometer-scale-15{
+transform: rotate(50deg);
+}
+.humidity-speedometer-scale-16{
+transform: rotate(60deg);
+}
+.humidity-speedometer-scale-17{
+transform: rotate(70deg);
+}
+
+.humidity-speedometer-scale-18{
+transform: rotate(80deg);
+}
+
+.humidity-speedometer-scale-19{
+transform: rotate(90deg);
+height: 244px;
+top: 25px;
+left:161px;
+}
+
+.speedometer-center-hide{
+width: 250px;
+height: 250px;
+background-color: white;
+border-radius: 50%;
+position: absolute;
+top: 22px;
+left: 22px;
+z-index: 9;
+}
+
+.speedometer-bottom-hide{
+width: 320px;
+height: 150px;
+background-color: white;
+position: absolute;
+z-index: 11;
+top: 160px;
+left: -14px;
+}
+
+.arrow-container{
+width: 160px;
+height: 160px;
+background-color: transparent;
+position: absolute;
+z-index: 12;
+top: 67px;
+left: 67px;
+}
+
+.humidity-arrow-wrapper, .temperature-arrow-wrapper{
+width: 160px;
+height: 160px;
+background-color: transparent;
+position: relative;
+}
+
+.arrow{
+width: 110px;
+height: 4px;
+background-color: purple;
+position: absolute;
+top: 78px;
+left: -30px;
+}
+
+.speed-0{
+transform: rotate(0deg);
+}
+
+.speed-10{
+transform: rotate(10deg);
+}
+.speed-20{
+transform: rotate(20deg);
+}
+.speed-30{
+transform: rotate(30deg);
+}
+.speed-40{
+transform: rotate(40deg);
+}
+.speed-50{
+transform: rotate(50deg);
+}
+.speed-60{
+transform: rotate(60deg);
+}
+.speed-70{
+transform: rotate(70deg);
+}
+.speed-80{
+transform: rotate(80deg);
+}
+.speed-90{
+transform: rotate(90deg);
+}
+.speed-100{
+transform: rotate(100deg);
+}
+.speed-110{
+transform: rotate(110deg);
+}
+.speed-120{
+transform: rotate(120deg);
+}
+.speed-130{
+transform: rotate(130deg);
+}
+.speed-140{
+transform: rotate(140deg);
+}
+.speed-150{
+transform: rotate(150deg);
+}
+.speed-160{
+transform: rotate(160deg);
+}
+.speed-170{
+transform: rotate(170deg);
+}
+.speed-180{
+transform: rotate(180deg);
+}
+
+.speedometer-text{
+width: 100px;
+background-color: transparent;
+position: absolute;
+z-index: 20;
+left: 111px;
+top: 169px;
+text-align: center;
+font-weight: bold;
+}
+
+.value{
+font-size: 39px;
+}
+
+.unit{
+font-size: 19px;
+margin-left: 1px;
+}
+
+.humidity-warning-div{
+margin: 50px auto;
+position: absolute;
+left: 231px;
+top: -50px;
+}
+
+.humidity-alert-div{
+margin: 50px auto;
+position: absolute;
+left: 268px;
+top: -8px;
+}
+.temperature-warning-div{
+margin: 50px auto;
+position: absolute;
+left: 141px;
+top: -81px;
+}
+
+
+
+
+.warning-pointy-container {
+background-color: #F4F4F4;
+color: black;
+height: 21px;
+width: 57px;
+padding: 5px;
+/* align-items: center; */
+border-radius: 10px;
+position: absolute;
+z-index:10;
+}
+
+.alert-pointy-container {
+background-color: #F4F4F4;
+color: black;
+height: 18px;
+width: 35px;
+padding: 5px;
+/* align-items: center; */
+border-radius: 10px;
+position: absolute;
+z-index:10;
+}
+
+.warning-pointer-small{
+  position: absolute;
+  height: 10px;
+  background-color: #F4F4F4;
+  width: 10px;
+  z-index: 8;
+  transform: rotate(45deg) translate(19px, 13px);
+}
+
+.alert-pointer-small{
+  position: absolute;
+  height: 10px;
+  background-color: #F4F4F4;
+  width: 10px;
+  z-index: 8;
+  transform: rotate(118deg) translate(12px, -3px);
+}
+
